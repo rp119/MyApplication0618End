@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.kgy.project_0518">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logicon"
+        android:label="100일 in 취업영단어"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SplashActivity"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+        <activity android:name=".HelpActivity"></activity>
+        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".AlramActivity"></activity>
+        <activity android:name=".InformationScrollActivity"></activity>
+        <activity android:name=".InformActivity"></activity>
+        <activity android:name=".InformTest"></activity>
+        <activity android:name=".ToeicScrollActivity"></activity>
+        <activity android:name=".ToeicActivity"></activity>
+        <activity android:name=".AttendanceActivity"></activity>
+        <activity android:name=".ToeicTest"></activity>
+        <activity android:name=".OdabtoeicActivity"></activity>
+        <receiver android:name=".AlertReceiver" />
+    </application>
+
+</manifest>

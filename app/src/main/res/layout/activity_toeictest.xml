@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="#fdf981">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="30dp"
+        android:id="@+id/day"
+        android:text="DAY1"
+        android:textStyle="bold"
+        android:textSize="40dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:background="#fdf981"
+        android:textColor="#714113" />
+    <Button
+        android:layout_width="320dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120dp"
+        android:background="@drawable/itembutton"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:padding="10dp"
+        android:id="@+id/question"
+        android:textAllCaps ="false" />
+
+    <Button
+        android:layout_width="320dp"
+        android:layout_height="90dp"
+        android:id="@+id/answer1"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textSize="25dp"
+        android:background="@drawable/itembutton"
+        android:layout_below="@id/question"
+        android:textAllCaps ="false" />
+
+    <Button
+        android:layout_width="320dp"
+        android:layout_height="90dp"
+        android:id="@+id/answer2"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:textSize="25dp"
+        android:background="@drawable/itembutton"
+        android:layout_below="@id/answer1"
+        android:textAllCaps ="false" />
+
+    <Button
+        android:layout_width="320dp"
+        android:layout_height="90dp"
+        android:id="@+id/answer3"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:textSize="25dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/itembutton"
+        android:layout_below="@id/answer2"
+        android:textAllCaps ="false" />
+
+</RelativeLayout>
+

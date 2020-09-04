@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/btn"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:layout_width="335dp"
+            android:layout_height="400dp"
+            android:id="@+id/btn"
+            android:background="@drawable/item_button"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/test_btn"
+            android:layout_below="@id/btn"
+            android:layout_alignParentRight="true"
+            android:layout_margin="10dp"
+            android:text="test"
+            android:visibility="invisible"
+            android:background="@drawable/item_button"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/word"
+            android:text="text"
+            android:layout_above="@id/testbtn"
+            android:layout_centerHorizontal="true"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textAllCaps="false"
+            android:textColor="#3f4f5c"
+            android:textSize="60dp"
+            />
+        <Button
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:id="@+id/testbtn"
+            android:layout_centerInParent="true"
+            android:layout_centerHorizontal="true"
+            android:visibility="invisible"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/fullname"
+            android:layout_below="@id/testbtn"
+            android:layout_centerHorizontal="true"
+            android:textSize="20dp"
+            />
+
+    </RelativeLayout>
+
+
+
+
+
+    <TextView
+        android:id="@+id/page_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:padding="20dp"
+        android:text="1/5"
+        android:textColor="#3f4f5c" />
+
+
+
+
+
+
+
+</RelativeLayout>

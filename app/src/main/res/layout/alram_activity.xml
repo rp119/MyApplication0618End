@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="#dff1c0">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/button_timepicker"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:textStyle="bold"
+        android:text="알람을 설정해 주세요"
+        android:textSize="30sp"
+        android:textColor="#545353"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/alarm2"
+        android:layout_gravity="center"
+        android:padding="10dp" />
+
+    <Button
+        android:id="@+id/button_timepicker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="time picker 시간 설정"
+        android:layout_margin="20dp"
+
+        android:layout_gravity="center"
+        android:background="@drawable/item_button"
+        android:textColor="#545353"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/button_cancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button_timepicker"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="알람 취소하기"
+        android:layout_margin="20dp"
+        android:layout_gravity="center"
+        android:background="@drawable/item_button"
+        android:textColor="#545353"
+        android:textStyle="bold"/>
+
+
+
+
+</LinearLayout>

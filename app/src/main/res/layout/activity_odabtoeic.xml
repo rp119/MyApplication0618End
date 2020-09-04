@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="#fdf981"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="30dp"
+        android:text="토익 오답노트"
+        android:textStyle="bold"
+        android:textSize="40dp"
+        android:gravity="center"
+        android:background="@drawable/itembutton"
+        android:textColor="#4d3a10" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:editable="false"
+                android:id="@+id/spell1"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:layout_marginLeft="20dp" />
+
+            <EditText
+                android:editable="false"
+                android:id="@+id/mean1"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:layout_toRightOf="@id/spell1"/>
+
+            <EditText
+                android:editable="false"
+                android:layout_below="@id/spell1"
+                android:id="@+id/spell2"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:layout_marginLeft="20dp" />
+
+            <EditText
+                android:editable="false"
+                android:layout_below="@id/mean1"
+                android:id="@+id/mean2"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:layout_toRightOf="@id/spell1"/>
+
+            <EditText
+                android:editable="false"
+                android:layout_below="@id/spell2"
+                android:id="@+id/spell3"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:layout_marginLeft="20dp" />
+
+            <EditText
+                android:editable="false"
+                android:layout_below="@id/mean2"
+                android:id="@+id/mean3"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:layout_toRightOf="@id/spell1"/>
+            <EditText
+                android:editable="false"
+                android:layout_below="@id/spell3"
+                android:id="@+id/spell4"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:layout_marginLeft="20dp" />
+
+            <EditText
+                android:editable="false"
+                android:layout_below="@id/mean3"
+                android:id="@+id/mean4"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:layout_toRightOf="@id/spell1"/>
+            <EditText
+                android:editable="false"
+                android:layout_below="@id/spell4"
+                android:id="@+id/spell5"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:layout_marginLeft="20dp" />
+
+            <EditText
+                android:editable="false"
+                android:layout_below="@id/mean4"
+                android:id="@+id/mean5"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:layout_toRightOf="@id/spell1"/>
+
+            <EditText
+                android:editable="false"
+                android:layout_below="@id/spell5"
+                android:id="@+id/spell6"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:layout_marginLeft="20dp" />
+
+            <EditText
+                android:editable="false"
+                android:layout_below="@id/mean5"
+                android:id="@+id/mean6"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:layout_toRightOf="@id/spell1"/>
+
+            <EditText
+                android:editable="false"
+                android:layout_below="@id/spell6"
+                android:id="@+id/spell7"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:layout_marginLeft="20dp" />
+
+            <EditText
+                android:editable="false"
+                android:layout_below="@id/mean6"
+                android:id="@+id/mean7"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:layout_toRightOf="@id/spell1"/>
+            <EditText
+                android:editable="false"
+                android:layout_below="@id/spell7"
+                android:id="@+id/spell8"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:layout_marginLeft="20dp" />
+
+            <EditText
+                android:editable="false"
+                android:layout_below="@id/mean7"
+                android:id="@+id/mean8"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:layout_toRightOf="@id/spell1"/>
+
+            <EditText
+                android:editable="false"
+                android:layout_below="@id/spell8"
+                android:id="@+id/spell9"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:layout_marginLeft="20dp" />
+
+            <EditText
+                android:editable="false"
+                android:layout_below="@id/mean8"
+                android:id="@+id/mean9"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:layout_toRightOf="@id/spell1"/>
+
+            <EditText
+                android:editable="false"
+                android:layout_below="@id/spell9"
+                android:id="@+id/spell10"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:layout_marginLeft="20dp" />
+
+            <EditText
+                android:editable="false"
+                android:layout_below="@id/mean9"
+                android:id="@+id/mean10"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:layout_toRightOf="@id/spell1"/>
+
+            <EditText
+                android:editable="false"
+                android:layout_below="@id/spell10"
+                android:id="@+id/spell11"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:layout_marginLeft="20dp" />
+
+            <EditText
+                android:editable="false"
+                android:layout_below="@id/mean10"
+                android:id="@+id/mean11"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:layout_toRightOf="@id/spell1"/>
+
+            <EditText
+                android:editable="false"
+                android:layout_below="@id/spell11"
+                android:id="@+id/spell12"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:layout_marginLeft="20dp" />
+
+            <EditText
+                android:editable="false"
+                android:layout_below="@id/mean11"
+                android:id="@+id/mean12"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:layout_toRightOf="@id/spell1"/>
+
+            <EditText
+            android:editable="false"
+            android:layout_below="@id/spell12"
+            android:id="@+id/spell13"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:layout_marginLeft="20dp" />
+
+            <EditText
+            android:editable="false"
+            android:layout_below="@id/mean12"
+            android:id="@+id/mean13"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:layout_toRightOf="@id/spell1"/>
+
+            <EditText
+                android:visibility="gone"
+            android:editable="false"
+            android:layout_below="@id/spell13"
+            android:id="@+id/spell14"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:layout_marginLeft="20dp" />
+
+            <EditText
+                android:visibility="gone"
+            android:editable="false"
+            android:layout_below="@id/mean13"
+            android:id="@+id/mean14"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:layout_toRightOf="@id/spell1"/>
+
+        <EditText
+            android:visibility="gone"
+            android:editable="false"
+            android:layout_below="@id/spell14"
+            android:id="@+id/spell15"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:layout_marginLeft="20dp" />
+
+        <EditText
+            android:visibility="gone"
+            android:editable="false"
+            android:layout_below="@id/mean14"
+            android:id="@+id/mean15"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:layout_toRightOf="@id/spell1"/>
+
+        <EditText
+            android:visibility="gone"
+            android:editable="false"
+            android:layout_below="@id/spell15"
+            android:id="@+id/spell16"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:layout_marginLeft="20dp" />
+
+        <EditText
+            android:visibility="gone"
+            android:editable="false"
+            android:layout_below="@id/mean15"
+            android:id="@+id/mean16"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:layout_toRightOf="@id/spell1"/>
+
+            <EditText
+                android:visibility="gone"
+                android:editable="false"
+                android:layout_below="@id/spell16"
+                android:id="@+id/spell17"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:layout_marginLeft="20dp" />
+
+            <EditText
+                android:visibility="gone"
+                android:editable="false"
+                android:layout_below="@id/mean16"
+                android:id="@+id/mean17"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:layout_toRightOf="@id/spell1"/>
+
+            <EditText
+                android:visibility="gone"
+                android:editable="false"
+                android:layout_below="@id/spell17"
+                android:id="@+id/spell18"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:layout_marginLeft="20dp" />
+
+            <EditText
+                android:visibility="gone"
+                android:editable="false"
+                android:layout_below="@id/mean17"
+                android:id="@+id/mean18"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:layout_toRightOf="@id/spell1"/>
+
+            <EditText
+                android:visibility="gone"
+                android:editable="false"
+                android:layout_below="@id/spell18"
+                android:id="@+id/spell19"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:layout_marginLeft="20dp" />
+
+            <EditText
+                android:visibility="gone"
+                android:editable="false"
+                android:layout_below="@id/mean18"
+                android:id="@+id/mean19"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:layout_toRightOf="@id/spell1"/>
+
+            <EditText
+                android:visibility="gone"
+                android:editable="false"
+                android:layout_below="@id/spell19"
+                android:id="@+id/spell20"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:layout_marginLeft="20dp" />
+
+            <EditText
+                android:visibility="gone"
+                android:editable="false"
+                android:layout_below="@id/mean19"
+                android:id="@+id/mean20"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:layout_toRightOf="@id/spell1"/>
+
+        </RelativeLayout>
+    </ScrollView>
+
+
+</LinearLayout>

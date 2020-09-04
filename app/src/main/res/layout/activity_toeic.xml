@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="#fdf981">
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="30dp"
+        android:text="DAY1"
+        android:textStyle="bold"
+        android:textSize="40dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:background="@drawable/itembutton"
+        android:textColor="#4d3a10" />
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+
+        android:textSize="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/textView1" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+
+        android:textSize="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/textView2"/>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:textSize="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/textView3"/>
+
+    <ImageView
+        android:id="@+id/image1"
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:layout_margin="10dp"
+        android:layout_below="@id/textView4" />
+    <Button
+        android:id="@+id/button01"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:padding="10dp"
+        android:layout_gravity="center"
+        android:text="발음"
+        android:layout_below="@id/image1"
+        android:background="@drawable/toiec_itembutton"/>
+    <Button
+        android:id="@+id/button05"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:text="HOME"
+        android:layout_below="@id/image1"
+        android:layout_marginLeft="50dp"
+        android:background="@drawable/toiec_itembutton"
+        />
+    <Button
+        android:id="@+id/button02"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:text="다음"
+        android:layout_marginTop="550dp"
+        android:layout_marginLeft="250dp"
+        android:background="@drawable/toiec_itembutton"/>
+    <Button
+        android:id="@+id/button03"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:text="이전"
+        android:layout_marginTop="550dp"
+        android:layout_marginLeft="200dp"
+        android:background="@drawable/toiec_itembutton"/>
+    <Button
+        android:id="@+id/button04"
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:text="Test"
+        android:layout_marginTop="550dp"
+        android:layout_marginLeft="300dp"
+        android:visibility="gone"
+        android:background="@drawable/toiec_itembutton"/>
+
+
+</RelativeLayout>
