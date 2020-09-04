@@ -31,5 +31,4 @@
         <activity android:name=".OdabtoeicActivity"></activity>
         <receiver android:name=".AlertReceiver" />
     </application>
-
 </manifest>
